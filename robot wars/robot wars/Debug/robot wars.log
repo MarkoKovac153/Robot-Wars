@@ -1,0 +1,64 @@
+﻿  main.cpp
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,27): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1543): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),robot&,const robot&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=robot &,
+              _Ty2=const robot &
+          ]
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4108): message : see reference to function template instantiation '_BidIt *std::_Insertion_sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_BidIt,const _BidIt,_Pr)' being compiled
+          with
+          [
+              _BidIt=const robot *,
+              _RanIt=const robot *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4138): message : see reference to function template instantiation 'void std::_Sort_unchecked<const robot*,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,int,_Pr)' being compiled
+          with
+          [
+              _RanIt=const robot *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+C:\Users\crazy\source\repos\robot wars\robot wars\main.cpp(20): message : see reference to function template instantiation 'void std::sort<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(const _RanIt,const _RanIt,_Pr)' being compiled
+          with
+          [
+              _Ty=robot,
+              _RanIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<robot>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,20): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,62): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\xutility(1544,54): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3988,1): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const robot' (or there is no acceptable conversion)
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : could be 'robot &robot::operator =(robot &&)'
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : or       'robot &robot::operator =(const robot &)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3988,1): message : while trying to match the argument list '(const robot, robot)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3991,1): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const robot' (or there is no acceptable conversion)
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : could be 'robot &robot::operator =(robot &&)'
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : or       'robot &robot::operator =(const robot &)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3991,1): message : while trying to match the argument list '(const robot, const robot)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3994,1): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const robot' (or there is no acceptable conversion)
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : could be 'robot &robot::operator =(robot &&)'
+C:\Users\crazy\source\repos\robot wars\robot wars\robot.h(28,1): message : or       'robot &robot::operator =(const robot &)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(3994,1): message : while trying to match the argument list '(const robot, robot)'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4044,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4044,32): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4044,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4044,22): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4048,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4048,92): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4048,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4048,82): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4058,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4058,40): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4058,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4058,30): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4070,1): error C2664: 'bool (int,int)': cannot convert argument 2 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4070,40): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4070,1): error C2664: 'bool (int,int)': cannot convert argument 1 from 'const robot' to 'int'
+G:\visual studios\VC\Tools\MSVC\14.27.29110\include\algorithm(4070,30): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
